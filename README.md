@@ -5,9 +5,9 @@
 
 # links
 
-[repo]()
-[PR]()
-[heroku]()
+
+[PR](https://github.com/anwarshraideh/auth-api/pull/1)
+
 
 
 # Setup
