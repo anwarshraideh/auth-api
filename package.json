@@ -1,0 +1,42 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --verbose",
+    "watch": "nodemon index.js",
+    "lint": "eslint **/*.js",
+    "test-watch": "jest --watchAll"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anwarshraideh/auth-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anwarshraideh/auth-api/issues"
+  },
+  "homepage": "https://github.com/anwarshraideh/auth-api#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "*",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.11",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@code-fellows/supergoose": "^1.1.0",
+    "jest": "^27.0.1"
+  }
+}
